@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 1 Liga AC Labs - Softvision</title>
+	<meta charset="utf-8" />
+    <!--<style>
+        textarea {
+            color: blueviolet;
+        }
+    </style> -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <p>text
+        <br/>
+        Alt text
+    </p>
+    <img src="http://vignette1.wikia.nocookie.net/koror-blog-org/images/b/b7/Cute-kitty-wallpaper-hd-2-3-s-307x512.jpg/revision/latest?cb=20140801184729"/>
+
+    <form method="post">
+        <label for="nume">textbox</label>
+        <input type="password" name="nume" id="nume" placeholder="text implicit"/>
+        <label for="casuta">checkbox</label>
+        <input type="checkbox" id="casuta"/>
+
+        <br/>
+        <label for="r1">r1</label>
+        <input type="radio" name="butonradio" id="r1"/>
+        <label for="r2">r2</label>
+        <input type="radio" name="butonradio" id="r2" />
+        <label for="r3">r3</label>
+        <input type="radio" name="butonradio" id="r3" />
+
+        <br/>
+        <!--  style="color: aquamarine" -->
+        <textarea cols="80" rows="10" style="">
+            Text area!
+        </textarea>
+
+        <br/>
+        <select name="numele_selectului">
+            <option value="val1">displayed value 1</option>
+            <option value="val2" selected>displayed value 2</option>
+            <option value="val3">displayed value 3</option>
+        </select>
+
+        <br/>
+        <!-- Daca nu se specifica spre ce pagina sa se trimita formularul, se trimite tot spre aceeasi pagina. 
+            Tot ce apare in URL dupa ? sunt query parameters.Parametri se trimit dupa name, nu dupa id.
+            -->
+            
+        <input type="submit"/>
+
+    </form>
+
+    <p>
+        <textarea>
+            Textarea after form!
+        </textarea>
+    </p>
+
+</body>
+</html>

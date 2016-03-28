@@ -1,0 +1,22 @@
+﻿body form > textarea {
+            color: mediumblue;
+            background-color: deeppink;
+        }
+
+body {
+    background-color: lavenderblush;
+}
+
+#r3 {
+    margin: 100px;
+    background-color: yellow;
+}
+
+#nume {
+    padding: 100px;
+    background-color: coral;
+}
+
+/*
+    Margin departeaza elementul de elementele din jur, padding specifica spatierea in interior (dupa border).
+*/
